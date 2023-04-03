@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Quiz Form</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+		}
+		
+		#quiz-form {
+			max-width: 600px;
+			margin: auto;
+			padding: 20px;
+			border: 1px solid #ccc;
+			border-radius: 5px;
+		}
+		
+		.quiz-question {
+			margin-top: 20px;
+		}
+		
+		.quiz-option {
+			display: block;
+			margin-bottom: 10px;
+		}
+		
+		.quiz-option input[type="radio"] {
+			margin-right: 10px;
+		}
+		
+		.quiz-submit {
+			display: block;
+			margin-top: 20px;
+			background-color: #4CAF50;
+			color: white;
+			border: none;
+			padding: 10px 20px;
+			border-radius: 5px;
+			cursor: pointer;
+			font-size: 16px;
+			font-weight: bold;
+			text-align: center;
+			width: 100%;
+			transition: background-color 0.3s ease;
+		}
+		
+		.quiz-submit:hover {
+			background-color: #3e8e41;
+		}
+	</style>
+</head>
+<body>
+	<form id="quiz-form">
+		<h2>Quiz</h2>
+		<div class="quiz-question">
+			<h3>Question 1:</h3>
+			<p>What is the capital of France?</p>
+			<label class="quiz-option">
+				<input type="radio" name="q1" value="a">
+				a) London
+			</label>
+			<label class="quiz-option">
+				<input type="radio" name="q1" value="b">
+				b) Paris
+			</label>
+			<label class="quiz-option">
+				<input type="radio" name="q1" value="c">
+				c) Rome
+			</label>
+		</div>
+		
+		<div class="quiz-question">
+			<h3>Question 2:</h3>
+			<p>What is the largest country in the world?</p>
+			<label class="quiz-option">
+				<input type="radio" name="q2" value="a">
+				a) Russia
+			</label>
+			<label class="quiz-option">
+				<input type="radio" name="q2" value="b">
+				b) China
+			</label>
+			<label class="quiz-option">
+				<input type="radio" name="q2" value="c">
+				c) United States
+			</label>
+		</div>
+		
+		<input type="submit" class="quiz-submit" value="Submit Quiz">
+	</form>
+</body>
+</html>

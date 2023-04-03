@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page3</title>
+</head>
+<link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css">
+<style>
+body{
+
+    background-image: url(picc5.jpg);
+    background-repeat: repeat;
+}
+nav {
+    display: flex;
+    border: 2px solid rgb(249, 246, 246);
+    border-radius: 75px;
+   background-color:rgb(186, 221, 233);
+   height: 70px;
+   margin-top: 10px;
+   margin-left: 5px;
+   margin-right: 5px;
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 1.1em;
+}
+
+nav ul {
+   list-style:none;
+   margin: 0;
+   padding: 0;
+   display: flex;
+   justify-content:left;
+   height: 100%;
+}
+
+nav li {
+   height: 100%;
+}
+
+nav a {
+   display: flex;
+   align-items: center;
+   color: rgb(11, 12, 14);
+   text-decoration:underline;
+   padding: 0 20px;
+   height: 100%;
+   transition: background-color 0.3s;
+}
+#d1{
+    width: 10px;
+    height: 10px;
+}
+.submenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  list-style: none;
+  margin: 0;
+  padding:0;}
+#search{
+    padding: 10px;
+        border: none;
+        border-radius: 50px;
+        width: 200px;
+       position: absolute;
+       right: 100px;
+       top:22px
+
+  
+}
+#button
+{
+        padding: 10px;
+        border: none;
+        border-radius: 50px;
+        margin: 20px;
+        width: 50px;
+        background-color: azure;
+        position: absolute;
+        left:1380px;
+        top:2.5px
+}
+.e{
+    padding: 10px;
+        display: block;
+        color: #fff;
+        text-decoration: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: #333;
+        display: none;
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+        min-width: 200px;
+    }
+#d2{
+width: 500px;
+height: 200px;
+position: absolute;
+right:3%;
+}
+.social-media-bar {
+    position: absolute;
+    top: 93vh;
+  background-color:none;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: fixed;
+}
+#quiz-form {
+			max-width: 600px;
+			margin: auto;
+			padding: 20px;
+			border: 1px solid #ccc;
+			border-radius: 5px;
+		}
+		
+		.quiz-question {
+			margin-top: 20px;
+            font-family: 'Times New Roman', Times, serif;
+		}
+		
+		.quiz-option {
+			display: block;
+			margin-bottom: 10px;
+		}
+		
+		.quiz-option input[type="radio"] {
+			margin-right: 10px;
+		}
+		
+		.quiz-submit {
+			display: block;
+			margin-top: 20px;
+			background-color: #68addc;
+			color: white;
+			border: none;
+			padding: 10px 20px;
+			border-radius: 5px;
+			font-size: 16px;
+			font-weight: bold;
+			text-align: center;
+			width: 100%;
+			transition: background-color 0.3s ease;
+            font-family: 'Times New Roman', Times, serif;
+		}
+		@media screen and (min-width: 481px) and (max-width: 980px){
+            nav {
+    display: flex;
+    border: 2px solid rgb(249, 246, 246);
+    border-radius: 75px;
+   background-color:rgb(186, 221, 233);
+   height: 4em;
+   margin-top: 10px;
+   margin-left: 5px;
+   margin-right: 5px;
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 1em;
+}
+nav ul {
+   list-style:none;
+   margin: 0;
+   padding: 0;
+   display: flex;
+   display: inline-flex;
+   justify-content:left;
+   height: 100%;
+}
+nav a {
+   display: flex;
+   align-items: center;
+   color: rgb(11, 12, 14);
+   text-decoration:underline;
+   padding: 0 10px;
+   height: 100%;
+   transition: background-color 0.3s;
+}
+#search{
+    padding: 10px;
+        border: none;
+        border-radius: 50px;
+        width: 11em;
+       position: relative;
+       top:10%;
+       right: -4em;
+       height: 3em;
+       display: flex;
+       
+
+  
+}
+#button
+{
+    padding: 10px;
+        border: none;
+        border-radius: 50px;
+        margin: 20em;
+        width: 50px;
+        background-color: azure;
+        position: absolute;
+        left:24em;
+        top:-18.8em;
+}
+        }
+		
+</style>
+<body>
+    <div class="social-media-bar">
+  <a href="https://www.instagram.com"><img src="ins.logo.webp" alt="Instagram" style="width: 40px;height: 40px;border-radius: 50px; margin: 3px;"></a>
+  <a href="https://www.twitter.com"><img src="twiter.png" alt="Twitter" style="width: 40px;height: 40px;border-radius: 50px;margin: 3px;"></a>
+  <a href="https://www.facebook.com"><img src="facelogo.png" alt="Facebook"style="width: 40px;height: 40px;border-radius: 50px;margin: 3px;"></a>
+</div>
+    <nav>
+        <ul>
+            <li><img src="pic5.jpg" alt="" style="width: 70px;height: 100%;border-radius: 100px;padding:0%;"></li>
+           <li><a href="http://127.0.0.1:5501/page1.html">Home</a></li>
+           <li><a href="http://127.0.0.1:5501/page2.html">Famous Places</a></li>
+           <li><a href="http://127.0.0.1:5501/page3.html?#">Questions</a></li>
+           <li><a href="#">Holy Quran</a></li>
+        </ul>
+        <form action="" style="float: right; margin: 10px;"></form>
+        <input type="text" placeholder="Search" id="search">
+        <button id="button"><img src="p1.png" alt="" style="width: 20px;height: 20px;border-radius: 50px;"></button>
+    </form>
+     </nav>
+     <form id="quiz-form">
+		<h2>Quiz</h2>
+
+		<div class="quiz-question">
+			<h3>Question 1:</h3>
+			<p>Which of the following is considered the holy book of Islam?</p>
+			<label class="quiz-option">
+				<input type="radio" name="q1" value="a">
+				a) Quran
+			</label>
+			<label class="quiz-option">
+				<input type="radio" name="q1" value="b">
+				b) Torah
+			</label>
+			<label class="quiz-option">
+				<input type="radio" name="q1" value="c">
+				c) Bibble
+			</label>
+		</div>
+		
+		<div class="quiz-question">
+			<h3>Question 2:</h3>
+			<p>What is the name of the holy month in Islam during which Muslims fast from dawn until sunset?</p>
+			<label class="quiz-option">
+				<input type="radio" name="q2" value="a">
+				a) Hajj
+			</label>
+			<label class="quiz-option">
+				<input type="radio" name="q2" value="b">
+				b) Ramadan
+			</label>
+			<label class="quiz-option">
+				<input type="radio" name="q2" value="c">
+				c) Shaban
+			</label>
+		</div>
+
+        <div class="quiz-question">
+			<h3>Question 3:</h3>
+			<p>Who is considered the final prophet in Islam?</p>
+			<label class="quiz-option">
+				<input type="radio" name="q2" value="a">
+				a) Musa(AS)
+			</label>
+			<label class="quiz-option">
+				<input type="radio" name="q2" value="b">
+				b) Jesus
+			</label>
+			<label class="quiz-option">
+				<input type="radio" name="q2" value="c">
+				c) Muhammad(PBUH)
+			</label>
+		</div>
+        <div class="quiz-question">
+			<h3>Question 4:</h3>
+			<p>What is the name of the Islamic declaration of faith?</p>
+			<label class="quiz-option">
+				<input type="radio" name="q2" value="a">
+				a) Hajj
+			</label>
+			<label class="quiz-option">
+				<input type="radio" name="q2" value="b">
+				b) Zakat
+			</label>
+			<label class="quiz-option">
+				<input type="radio" name="q2" value="c">
+				c) Shahada
+			</label>
+		</div>
+        <div class="quiz-question">
+			<h3>Question 5:</h3>
+			<p>Which of the following is not considered one of the Five Pillars of Islam?</p>
+			<label class="quiz-option">
+				<input type="radio" name="q2" value="a">
+				a) Hajj
+			</label>
+			<label class="quiz-option">
+				<input type="radio" name="q2" value="b">
+				b) Zakat
+			</label>
+			<label class="quiz-option">
+				<input type="radio" name="q2" value="c">
+				c) Sharia
+			</label>
+		</div>
+        <div class="quiz-question">
+			<h3>Question 6:</h3>
+			<p>What is the name of the Islamic month that follows Ramadan and is marked by the celebration of Eid al-Fitr?</p>
+			<label class="quiz-option">
+				<input type="radio" name="q2" value="a">
+				a) Muharam
+			</label>
+			<label class="quiz-option">
+				<input type="radio" name="q2" value="b">
+				b) Shawwal
+			</label>
+			<label class="quiz-option">
+				<input type="radio" name="q2" value="c">
+				c) Rajab
+			</label>
+		</div>
+        <div class="quiz-question">
+			<h3>Question 7:</h3>
+			<p>How many surah are there in Quran?</p>
+			<label class="quiz-option">
+				<input type="radio" name="q2" value="a">
+				a) 114
+			</label>
+			<label class="quiz-option">
+				<input type="radio" name="q2" value="b">
+				b) 124
+			</label>
+			<label class="quiz-option">
+				<input type="radio" name="q2" value="c">
+				c) 109
+			</label>
+		</div>
+		
+		<input type="submit" class="quiz-submit" value="Submit Quiz">
+	</form>
+</body>
+</html>
